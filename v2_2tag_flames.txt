@@ -1,0 +1,63 @@
+<span class="anchor" id="line-230"></span>   4.19  BUF Recommended buffer size
+<span class="anchor" id="line-232"></span>   4.17  CNT Play counter
+<span class="anchor" id="line-233"></span>   4.11  COM Comments
+<span class="anchor" id="line-234"></span>   4.21  CRA Audio encryption
+<span class="anchor" id="line-235"></span>   4.20  CRM Encrypted meta frame
+<span class="anchor" id="line-237"></span>   4.6   ETC Event timing codes
+<span class="anchor" id="line-238"></span>   4.13  EQU Equalization
+<span class="anchor" id="line-240"></span>   4.16  GEO General encapsulated object
+<span class="anchor" id="line-242"></span>   4.4   IPL Involved people list
+<span class="anchor" id="line-244"></span>   4.22  LNK Linked information
+<span class="anchor" id="line-246"></span>   4.5   MCI Music CD Identifier
+<span class="anchor" id="line-247"></span>   4.7   MLL MPEG location lookup table
+<span class="anchor" id="line-249"></span>   4.15  PIC Attached picture
+<span class="anchor" id="line-250"></span>   4.18  POP Popularimeter
+<span class="anchor" id="line-252"></span>   4.14  REV Reverb
+<span class="anchor" id="line-253"></span>   4.12  RVA Relative volume adjustment
+<span class="anchor" id="line-255"></span>   4.10  SLT Synchronized lyric/text
+<span class="anchor" id="line-256"></span>   4.8   STC Synced tempo codes
+<span class="anchor" id="line-258"></span>   4.2.1 TAL Album/Movie/Show title
+<span class="anchor" id="line-259"></span>   4.2.1 TBP BPM (Beats Per Minute)
+<span class="anchor" id="line-260"></span>   4.2.1 TCM Composer
+<span class="anchor" id="line-261"></span>   4.2.1 TCO Content type
+<span class="anchor" id="line-262"></span>   4.2.1 TCR Copyright message
+<span class="anchor" id="line-263"></span>   4.2.1 TDA Date
+<span class="anchor" id="line-264"></span>   4.2.1 TDY Playlist delay
+<span class="anchor" id="line-265"></span>   4.2.1 TEN Encoded by
+<span class="anchor" id="line-266"></span>   4.2.1 TFT File type
+<span class="anchor" id="line-267"></span>   4.2.1 TIM Time
+<span class="anchor" id="line-268"></span>   4.2.1 TKE Initial key
+<span class="anchor" id="line-269"></span>   4.2.1 TLA Language(s)
+<span class="anchor" id="line-270"></span>   4.2.1 TLE Length
+<span class="anchor" id="line-271"></span>   4.2.1 TMT Media type
+<span class="anchor" id="line-272"></span>   4.2.1 TOA Original artist(s)/performer(s)
+<span class="anchor" id="line-273"></span>   4.2.1 TOF Original filename
+<span class="anchor" id="line-274"></span>   4.2.1 TOL Original Lyricist(s)/text writer(s)
+<span class="anchor" id="line-275"></span>   4.2.1 TOR Original release year
+<span class="anchor" id="line-276"></span>   4.2.1 TOT Original album/Movie/Show title
+<span class="anchor" id="line-277"></span>   4.2.1 TP1 Lead artist(s)/Lead performer(s)/Soloist(s)/Performing group
+<span class="anchor" id="line-278"></span>   4.2.1 TP2 Band/Orchestra/Accompaniment
+<span class="anchor" id="line-279"></span>   4.2.1 TP3 Conductor/Performer refinement
+<span class="anchor" id="line-280"></span>   4.2.1 TP4 Interpreted, remixed, or otherwise modified by
+<span class="anchor" id="line-281"></span>   4.2.1 TPA Part of a set
+<span class="anchor" id="line-282"></span>   4.2.1 TPB Publisher
+<span class="anchor" id="line-283"></span>   4.2.1 TRC ISRC (International Standard Recording Code)
+<span class="anchor" id="line-284"></span>   4.2.1 TRD Recording dates
+<span class="anchor" id="line-285"></span>   4.2.1 TRK Track number/Position in set
+<span class="anchor" id="line-286"></span>   4.2.1 TSI Size
+<span class="anchor" id="line-287"></span>   4.2.1 TSS Software/hardware and settings used for encoding
+<span class="anchor" id="line-288"></span>   4.2.1 TT1 Content group description
+<span class="anchor" id="line-289"></span>   4.2.1 TT2 Title/Songname/Content description
+<span class="anchor" id="line-290"></span>   4.2.1 TT3 Subtitle/Description refinement
+<span class="anchor" id="line-291"></span>   4.2.1 TXT Lyricist/text writer
+<span class="anchor" id="line-292"></span>   4.2.2 TXX User defined text information frame
+<span class="anchor" id="line-293"></span>   4.2.1 TYE Year
+<span class="anchor" id="line-295"></span>   4.1   UFI Unique file identifier
+<span class="anchor" id="line-296"></span>   4.9   ULT Unsychronized lyric/text transcription
+<span class="anchor" id="line-298"></span>   4.3.1 WAF Official audio file webpage
+<span class="anchor" id="line-299"></span>   4.3.1 WAR Official artist/performer webpage
+<span class="anchor" id="line-300"></span>   4.3.1 WAS Official audio source webpage
+<span class="anchor" id="line-301"></span>   4.3.1 WCM Commercial information
+<span class="anchor" id="line-302"></span>   4.3.1 WCP Copyright/Legal information
+<span class="anchor" id="line-303"></span>   4.3.1 WPB Publishers official webpage
+<span class="anchor" id="line-304"></span>   4.3.2 WXX User defined URL link frame

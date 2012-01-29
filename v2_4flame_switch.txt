@@ -1,0 +1,83 @@
+case 'AENC': // Audio encryption
+case 'APIC': // Attached picture
+case 'ASPI': // Audio seek point index
+case 'COMM': // Comments
+case 'COMR': // Commercial frame
+case 'ENCR': // Encryption method registration
+case 'EQU2': // Equalisation (2)
+case 'ETCO': // Event timing codes
+case 'GEOB': // General encapsulated object
+case 'GRID': // Group identification registration
+case 'LINK': // Linked information
+case 'MCDI': // Music CD identifier
+case 'MLLT': // MPEG location lookup table
+case 'OWNE': // Ownership frame
+case 'PRIV': // Private frame
+case 'PCNT': // Play counter
+case 'POPM': // Popularimeter
+case 'POSS': // Position synchronisation frame
+case 'RBUF': // Recommended buffer size
+case 'RVA2': // Relative volume adjustment (2)
+case 'RVRB': // Reverb
+case 'SEEK': // Seek frame
+case 'SIGN': // Signature frame
+case 'SYLT': // Synchronised lyric/text
+case 'SYTC': // Synchronised tempo codes
+case 'TALB': // Album/Movie/Show title
+case 'TBPM': // BPM (beats per minute)
+case 'TCOM': // Composer
+case 'TCON': // Content type
+case 'TCOP': // Copyright message
+case 'TDEN': // Encoding time
+case 'TDLY': // Playlist delay
+case 'TDOR': // Original release time
+case 'TDRC': // Recording time
+case 'TDRL': // Release time
+case 'TDTG': // Tagging time
+case 'TENC': // Encoded by
+case 'TEXT': // Lyricist/Text writer
+case 'TFLT': // File type
+case 'TIPL': // Involved people list
+case 'TIT1': // Content group description
+case 'TIT2': // Title/songname/content description
+case 'TIT3': // Subtitle/Description refinement
+case 'TKEY': // Initial key
+case 'TLAN': // Language(s)
+case 'TLEN': // Length
+case 'TMCL': // Musician credits list
+case 'TMED': // Media type
+case 'TMOO': // Mood
+case 'TOAL': // Original album/movie/show title
+case 'TOFN': // Original filename
+case 'TOLY': // Original lyricist(s)/text writer(s)
+case 'TOPE': // Original artist(s)/performer(s)
+case 'TOWN': // File owner/licensee
+case 'TPE1': // Lead performer(s)/Soloist(s)
+case 'TPE2': // Band/orchestra/accompaniment
+case 'TPE3': // Conductor/performer refinement
+case 'TPE4': // Interpreted, remixed, or otherwise modified by
+case 'TPOS': // Part of a set
+case 'TPRO': // Produced notice
+case 'TPUB': // Publisher
+case 'TRCK': // Track number/Position in set
+case 'TRSN': // Internet radio station name
+case 'TRSO': // Internet radio station owner
+case 'TSOA': // Album sort order
+case 'TSOP': // Performer sort order
+case 'TSOT': // Title sort order
+case 'TSRC': // ISRC (international standard recording code)
+case 'TSSE': // Software/Hardware and settings used for encoding
+case 'TSST': // Set subtitle
+case 'TXXX': // User defined text information frame
+case 'UFID': // Unique file identifier
+case 'USER': // Terms of use
+case 'USLT': // Unsynchronised lyric/text transcription
+case 'WCOM': // Commercial information
+case 'WCOP': // Copyright/Legal information
+case 'WOAF': // Official audio file webpage
+case 'WOAR': // Official artist/performer webpage
+case 'WOAS': // Official audio source webpage
+case 'WORS': // Official Internet radio station homepage
+case 'WPAY': // Payment
+case 'WPUB': // Publishers official webpage
+case 'WXXX': // User defined URL link frame

@@ -1,0 +1,32 @@
+/* playlist field */
+#playlist_wrapper{
+    display: -webkit-box;
+    display: -moz-box;
+}
+#info_field img{
+  width: 60px;
+  height: 60px;
+}
+#stream_field{
+  border: 3px solid blue;
+}
+#stream_page{
+  border: 3px dashed green;
+}
+/* stream field */
+#stream_wrapper{
+    display: -webkit-box;
+    display: -moz-box;
+}
+#account{
+    width:70px;
+    font-size: x-small;
+}
+#account img{
+    width:20px;
+    height:20px;
+}
+#text{
+    font-size:small;
+    width: 600px;
+}

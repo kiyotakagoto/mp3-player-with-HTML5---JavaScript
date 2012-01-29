@@ -1,0 +1,43 @@
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load( "jquery", "1.4.4" );
+  google.load( "jqueryui", "1.7.3" );
+  //google.load( "jqueryui", "1.8.9" );
+  jQuery( function(){
+  //$( "#playlist" ).selectable( { filter: 'option' } );
+  $( "#playlist" ).selectable();
+  $( "#playlist option" ).draggable({
+    cursor : "move",
+    opacity : 0.6,
+    helper : "original",
+    //helper : "original",
+    start : function( e, ui ){
+      //if( $( ".ui-selected" ).length > 0 ) return;
+      //$( e.target ).addClass( "ui-selected" );
+    }
+  });
+});
+</script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<div>
+  <input type="file" id="selectingsongs" multiple="multiple" />
+</div>
+
+<div id="player">
+  <input type="button" value="再生" onclick="play()" />
+  <input type="button" value="一時停止" onclick="pause()" />
+  <input type="button" value="停止" onclick="stop();" />
+  <span id="time">00:00</span> / <span id="duration">00:00</span>
+</div>
+<select id="playlist" size=5>
+</select>
+
+<div id="ui">
+  <input id="next" type="button" value="次の曲"" />
+  <input id="rewind" type="button" value="巻き戻し"" />
+  <input id="fast-forward" type="button" value="早送り" />
+ 追加：<input type="file" id="addingsongs" multiple="multiple" />
+</div>
+
+<div id="debug">
+</div>

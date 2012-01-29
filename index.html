@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf8" />
+    <title>test</title>
+<link rel="stylesheet" href="./css/style.css" type="text/css">
+<script src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="./readId3tag.js"></script>
+<script type="text/javascript" src="./base64.js"></script>
+<script type="text/javascript" src="./enc_unicode.js"></script>
+<script type="text/javascript" src="./twitter_stream.js"></script>
+<script type="text/javascript" src="./sjis.js"></script>
+<script type="text/javascript" src="./utf.js"></script>
+<script type="text/javascript" src="./ecl.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript">
+  google.load( "jquery", "1.4.4" );
+  google.load( "jqueryui", "1.7.3" );
+  //google.load( "jqueryui", "1.8.9" );
+</script>
+  </head>
+  <body>
+
+<div>
+  <input type="file" id="selectingsongs" multiple="multiple" />
+</div>
+<div id="player">
+  <input type="button" value="再生" onclick="play()" />
+  <input type="button" value="一時停止" onclick="pause()" />
+  <input type="button" value="停止" onclick="stop();" />
+  <input type="button" value="音量up" onclick="volumeUp();" />
+  <input type="button" value="音量down" onclick="volumeDown();" />
+  <span id="time">00:00</span> / <span id="duration">00:00</span>
+</div>
+<div id="playlist_wrapper">
+    <div id="info_field">
+    </div>
+    <ul id="playlist"><!-- id3タグ情報とプレイリストをHTML5段組み表示で -->
+    </ul>
+</div>
+<div id="nowplaying"></div>
+<div id="ui">
+  <input id="previous" type="button" value="前の曲" />
+  <input id="next" type="button" value="次の曲"" />
+  <input id="rewind" type="button" value="巻き戻し"" />
+  <input id="fast-forward" type="button" value="早送り" />
+ 追加：<input type="file" id="addingsongs" multiple="multiple" />
+</div>
+<div id="img_field">
+</div>
+<div id="stream_navi"></div>
+<div id="stream_field">
+</div>
+<div id="stream_page">
+</div>
+<div id="debug">
+  debug
+</div>
+
+
+<script type="text/javascript" src="./musicplayer.js"></script>
+<script type="text/javascript">
+    //alert( new String( "H"charCodeAt & 0xfE ) );
+    //alert( ( "H".charCodeAt( 0 ) & 0xfE ) );
+    //alert(String.fromCharCode( 0x97, 0x44, 0x93, 0xE2 ));
+    //alert(String.fromCharCode( 0x9744, 0x93E2 ));
+    //alert(String.fromCharCode( 0x96, 0xD8, 0x91, 0xBA, 0x97, 0x52, 0x95, 0x50 ));
+    //alert(String.fromCharCode( 0x96D8, 0x91BA, 0x9752, 0x9550 ));
+//    var kaisou = new String( "改装" );
+//    var utf16 = 0x5442;
+//    //utf16 = new String( utf16 );
+//    alert( utf16.charCodeAt( 0 ), utf16.charCodeAt( 1 ), utf16.charCodeAt( 2 ) );
+//    alert( kaisou.charCodeAt( 0 ) );
+//    alert( String.fromCharCode( 0x6539 ) );
+//    var utf16 = new Array( 0x5442, 0x7089 );
+//    alert( utf16 );
+//    alert( String.fromCharCode.apply( null, utf16 ) );
+
+  jQuery( function(){
+  //$( "#playlist" ).selectable( { filter: 'option' } );
+   //$( "#playlist" ).selectable();
+   $( "#playlist" ).sortable({
+    revert: true,
+    axis: "y",
+    items : "li",
+    update : function( event, ui ){
+      // プレイリスト作り直し
+      var lists = event.target.childNodes,
+          l = lists.length, i = 0, plAlias = playList;
+      for( ; i < l; ++i ){
+        plAlias[i] = lists[i].value;
+      }
+    }
+  });
+  //$( "ul, li" ).disableSelection();
+  /*
+  $( "#playlist li" ).draggable({
+    cursor : "move",
+    opacity : 0.6,
+    helper : "original",
+    //helper : "original",
+    start : function( e, ui ){
+      //if( $( ".ui-selected" ).length > 0 ) return;
+      //$( e.target ).addClass( "ui-selected" );
+    }
+  });
+  */
+});
+</script>
+
+  </body>
+</html>

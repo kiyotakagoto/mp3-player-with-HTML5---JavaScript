@@ -1,0 +1,63 @@
+case 'BUF': // Recommended buffer size
+case 'CNT': // Play counter
+case 'COM': // Comments
+case 'CRA': // Audio encryption
+case 'CRM': // Encrypted meta frame
+case 'ETC': // Event timing codes
+case 'EQU': // Equalization
+case 'GEO': // General encapsulated object
+case 'IPL': // Involved people list
+case 'LNK': // Linked information
+case 'MCI': // Music CD Identifier
+case 'MLL': // MPEG location lookup table
+case 'PIC': // Attached picture
+case 'POP': // Popularimeter
+case 'REV': // Reverb
+case 'RVA': // Relative volume adjustment
+case 'SLT': // Synchronized lyric/text
+case 'STC': // Synced tempo codes
+case 'TAL': // Album/Movie/Show title
+case 'TBP': // BPM (Beats Per Minute)
+case 'TCM': // Composer
+case 'TCO': // Content type
+case 'TCR': // Copyright message
+case 'TDA': // Date
+case 'TDY': // Playlist delay
+case 'TEN': // Encoded by
+case 'TFT': // File type
+case 'TIM': // Time
+case 'TKE': // Initial key
+case 'TLA': // Language(s)
+case 'TLE': // Length
+case 'TMT': // Media type
+case 'TOA': // Original artist(s)/performer(s)
+case 'TOF': // Original filename
+case 'TOL': // Original Lyricist(s)/text writer(s)
+case 'TOR': // Original release year
+case 'TOT': // Original album/Movie/Show title
+case 'TP1': // Lead artist(s)/Lead performer(s)/Soloist(s)/Performing group
+case 'TP2': // Band/Orchestra/Accompaniment
+case 'TP3': // Conductor/Performer refinement
+case 'TP4': // Interpreted, remixed, or otherwise modified by
+case 'TPA': // Part of a set
+case 'TPB': // Publisher
+case 'TRC': // ISRC (International Standard Recording Code)
+case 'TRD': // Recording dates
+case 'TRK': // Track number/Position in set
+case 'TSI': // Size
+case 'TSS': // Software/hardware and settings used for encoding
+case 'TT1': // Content group description
+case 'TT2': // Title/Songname/Content description
+case 'TT3': // Subtitle/Description refinement
+case 'TXT': // Lyricist/text writer
+case 'TXX': // User defined text information frame
+case 'TYE': // Year
+case 'UFI': // Unique file identifier
+case 'ULT': // Unsychronized lyric/text transcription
+case 'WAF': // Official audio file webpage
+case 'WAR': // Official artist/performer webpage
+case 'WAS': // Official audio source webpage
+case 'WCM': // Commercial information
+case 'WCP': // Copyright/Legal information
+case 'WPB': // Publishers official webpage
+case 'WXX': // User defined URL link frame
